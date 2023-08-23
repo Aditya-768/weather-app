@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Outfit:wght@300&family=Red+Hat+Display&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Weather App</h1>
+ 
+    <main>
+
+        <div class="search">
+            <input type="text" id="search-box" placeholder="Enter City Name">
+            <button class="fa fa-search" id="search-btn"></button>
+        </div>
+
+        <p id="city-name"></p>
+        <div class="details">
+
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <div id="image">
+                <img src="" alt="">
+            </div>
+
+            <div id="loader-id"></div>
+            <div class="cards">
+                <p id="feels-like"></p>
+                <p id="humidity"></p>
+                <p id="wind-speed"></p>
+            </div>
+        </div> 
+    </main>
+   
+    <script src="script.js"></script>
+</body>
+</html>
